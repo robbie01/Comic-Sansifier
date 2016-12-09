@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Comic Sansifier",
+  "description": "Changes all text to Comic Sans or an equivalent font",
+  "version": "1.0",
+  "icons": {
+    "128": "128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Comic Sans!"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
